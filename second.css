@@ -1,0 +1,263 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(stars-galaxy.gif);
+}
+
+.solarsystem{
+  
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-top: 23px;
+}
+
+img{
+    width: 45px;
+}
+.sun {
+    
+    position: absolute;
+    top: 46%;
+    left: 50%;
+
+}
+
+
+
+.sun img{
+    width: 80px;
+    animation: sun 25s linear infinite;
+}
+
+@keyframes sun {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.mercury{
+    top: 250px;
+    left:610px;
+    border: 0.2px solid white;
+    height: 190px;
+    width: 195px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    position: absolute;
+}
+
+.mercury img{
+    right: 45%;
+    bottom:50%;
+    width: 28px;
+    position: absolute;
+    animation: mercury 5s linear infinite ;
+}
+
+
+@keyframes mercury {
+    0% {
+      transform: rotate(0deg);
+      transform: rotate(0deg) translateX(100px) rotate(360deg);
+    }
+
+  
+    100% {
+      transform: rotate(360deg);
+      transform: rotate(360deg) translateX(90px) rotate(-360deg) ;
+    }
+  }
+
+.venus{
+    top: 220px;
+    left:570px;
+    border: 0.2px solid white;
+    height: 250px;
+    width: 275px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    position: absolute;
+}
+
+.venus img{
+    top: 110px;
+    left: 120px;
+    width: 28px;
+    position: absolute;
+    animation: venus 8s linear infinite;
+}
+
+
+@keyframes venus{
+    0% {
+        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(135px) rotate(360deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(140px) rotate(-360deg);
+      }
+}
+
+.earth{
+    position: absolute;
+    top: 27%;
+    left: 39%;
+    border: 1px solid white;
+    height: 370px;
+    width: 370px;
+    border-radius: 50%
+}
+
+.earth img{
+    position: absolute;
+    top: 155px;
+    left: 162px;
+    width: 35px;
+    animation: earth 10s linear infinite;
+}
+
+@keyframes earth  {
+    0% {
+        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(195px) rotate(360deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(180px) rotate(-360deg);
+      }
+}
+
+.moon{
+    position: absolute;
+    top: 155px;
+    left: 155px;
+    border:1px solid white;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    animation: moonline 12s linear infinite;
+}
+
+@keyframes moonline{
+    0% {
+        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(195px) rotate(360deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(180px) rotate(-360deg);
+      }
+}
+
+.moon img{
+    position: absolute;
+    width: 16px;
+    top: 5%;
+    animation: moon 12s linear infinite;
+}
+
+@keyframes moon {
+    0% {
+        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(195px) rotate(360deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(180px) rotate(-360deg);
+      }
+}
+
+.mars{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    border: 1px solid white;
+    height: 45%;
+    width: 48%;
+    border-radius: 50%;
+}
+
+.mars img{
+    position: absolute;
+    top:23%;
+}
+
+.jupiter{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 1px solid white;
+    height: 65%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.jupiter img{
+    position: absolute;
+    top: 28%;
+}
+
+.saturn{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    border: 1px solid white;
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+}
+
+.saturn img{
+    position: absolute;
+    top: 34%;
+}
+
+.uranus{
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    border: 1px solid white;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.uranus img{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+.neptune{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.neptune img{
+    position: absolute;
+    top: 31%;
+    left: 1%;
+}
+
